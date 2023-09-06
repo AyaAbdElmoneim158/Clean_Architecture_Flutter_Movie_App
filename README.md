@@ -32,4 +32,6 @@ The app implements data caching to improve performance and user experience.Cache
 - <b> Add Domain Layer
   - Add Entities
   - Add Repository
-    \_ Add UseCases
+  - Add UseCases
+- <b> Add Date Layer
+  - Add Models
