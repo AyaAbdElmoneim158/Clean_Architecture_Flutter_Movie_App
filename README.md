@@ -40,3 +40,4 @@ The app implements data caching to improve performance and user experience.Cache
 - <b> Add Presentation Layer
   - Add Blocs
   - Add Services Locator
+  - Add UI

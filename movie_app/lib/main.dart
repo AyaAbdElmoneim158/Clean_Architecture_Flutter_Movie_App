@@ -1,25 +1,24 @@
 import 'package:flutter/material.dart';
+import 'package:movie_app/core/services/services_locator.dart';
+import 'package:movie_app/features/presentation/screens/movies_screen/movies_screen.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized;
+  ServicesLocator().init();
   runApp(const MovieApp());
 }
 
 class MovieApp extends StatelessWidget {
-  const MovieApp({super.key});
+  const MovieApp({super.key}); //
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Movie App 🎥',
-        debugShowCheckedModeBanner: false,
-        home: Scaffold(
-          body: Center(
-            child: Text(
-              "Movie App 🎥",
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
-          ),
-        ));
+      debugShowCheckedModeBanner: false,
+      title: "Movie App",
+      theme:
+          ThemeData.dark().copyWith(scaffoldBackgroundColor: Colors.grey[900]),
+      home: const MoviesScreen(),
+    );
   }
 }
