@@ -24,3 +24,6 @@ The app implements data caching to improve performance and user experience.Cache
 
 - <b> Create flutter App
 - <b> Add App Architecture 
+- <b> Add Domain Layer
+    - Add Entities
+
