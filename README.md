@@ -37,3 +37,6 @@ The app implements data caching to improve performance and user experience.Cache
   - Add Models
   - Add DataSource
   - Add Repository_impl
+- <b> Add Presentation Layer
+  - Add Blocs
+  - Add Services Locator
