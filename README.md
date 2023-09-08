@@ -1,29 +1,16 @@
 # 🔹 Clean_Architecture_Flutter_Movie_App 🎥
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/114832629/230302399-5d8f34e7-bfc5-4597-8fff-6293044f47bd.png" alt="react logo" width=230> 
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <img src="https://www.mytechblog.net/wp-content/uploads/2020/09/movie-subtitles.jpg" alt="shopping logo" width="320px" height="auto" style="border-radius:50%"> 
+</div>
 
-The Movie App is a sophisticated mobile application developed using the Flutter framework, designed to offer users an immersive and enjoyable movie discovery experience. It has been meticulously crafted following the principles of Clean Architecture, which prioritizes code maintainability, scalability, and testability, resulting in a robust and efficient application.
+<hr>
 
-Key Features to Movie App :
+The Movies app is designed to offer users an immersive and fun movie discovery experience. Designed using clean architecture principles, the following are the main features of the app:
 
-    • Movie and TV Show Discovery:
-
-The app seamlessly connects to The Movie Database (TMDb) API using the Dio package to fetch real-time data about the most popular movies and TV shows.Users can effortlessly explore an extensive library of entertainment content, including up-to-date information, such as titles, release dates, genres, and ratings.
-
-    • Detailed Movie and TV Show Pages:
-
-Dive into the world of movies and TV shows with detailed information, including plot summaries, cast and crew details, trailers, and viewer ratings.User-friendly interfaces make it easy for users to access all the essential information about their favorite entertainment.
-
-    • Search Functionality:
-
-The app offers a powerful search feature that allows users to search for movies and TV shows across a wide variety of collections and genres.Users can quickly find the content they're looking for, making the discovery process a breeze.
-
-    • Bookmarking Movies and TV Shows:
-
-Users have the option to bookmark their favorite movies and TV shows for quick access.
-This feature enhances user engagement by enabling them to create personalized watchlists and mark content they want to watch later.
-
-    • Data Caching:
-
-The app implements data caching to improve performance and user experience.Cached data ensures that users can access content even when offline or experiencing slow network conditions, providing uninterrupted browsing.
+<li>Showing Now Playing Movie, Popular Movies and Top Rated Movies are all included with the Dio package.
+<li>Showing more details about the movie with similar movies using Dio Package
 
 ## \* Steps 🐾
 
@@ -41,3 +28,10 @@ The app implements data caching to improve performance and user experience.Cache
   - Add Blocs
   - Add Services Locator
   - Add UI
+ 
+<hr>
+<h2 align="center"> <em>Auth Screens</em></h2>
+  <div align="center">
+         <img src="https://github.com/AyaAbdElmoneim158/Clean_Architecture_Flutter_Movie_App/assets/114832629/0323b49d-74ed-4a92-a59a-aac06e43b6ed" title="Home Screen" width="200px" height="auto" >                         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+         <img src="https://github.com/AyaAbdElmoneim158/Clean_Architecture_Flutter_Movie_App/assets/114832629/602d5107-20d1-46c8-b941-7ba3ed8d1ef8" title="Details Screen" width="200px" height="auto"> 
+  </div>
